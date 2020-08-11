@@ -26,7 +26,7 @@ const nextConfig = {
 
 module.exports = withPlugins(
   [
-    /*[
+    [
       withOptimizedImages,
       {
         mozjpeg: {
@@ -37,7 +37,7 @@ module.exports = withPlugins(
           quality: 80,
         },
       },
-    ],*/
+    ],
     withFonts,
   ],
   nextConfig
