@@ -30,11 +30,11 @@ module.exports = withPlugins(
       withOptimizedImages,
       {
         mozjpeg: {
-          quality: 90,
+          quality: 80,
         },
         webp: {
           preset: "default",
-          quality: 90,
+          quality: 80,
         },
       },
     ],*/
