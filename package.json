@@ -3,10 +3,10 @@
   "version": "2.0.0",
   "scripts": {
     "dev": "next -p 3001",
-    "start": "next -p 3001",
+    "start:dev": "next -p 3001",
     "build": "next build",
-    "serve": "next start -p 3001",
-    "prod:start": "NODE_ENV=production pm2 start server.js"
+    "serve:dev": "next start -p 3001",
+    "start:prod": "NODE_ENV=production npm run build && next start -p 3001"
   },
   "dependencies": {
     "@glidejs/glide": "^3.4.1",
