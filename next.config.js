@@ -34,7 +34,7 @@ module.exports = withPlugins(
         },
         webp: {
           preset: "default",
-          quality: 80,
+          quality: 75,
         },
       },
     ],
