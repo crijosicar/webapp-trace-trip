@@ -1,12 +1,11 @@
 {
-  "name": "hotel-next",
+  "name": "trazetrip",
   "version": "2.0.0",
   "scripts": {
     "dev": "next -p 3001",
-    "start:dev": "next -p 3001",
     "build": "next build",
-    "serve:dev": "next start -p 3001",
-    "start:prod": "NODE_ENV=production npm run build && next start -p 3001"
+    "start": "next start",
+    "start:prod": "NODE_ENV=production npm run build && pm2 start npm --name 'TrazeTrip' -- start -p 3001"
   },
   "dependencies": {
     "@glidejs/glide": "^3.4.1",
