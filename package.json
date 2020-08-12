@@ -4,8 +4,8 @@
   "scripts": {
     "dev": "next -p 3001",
     "build": "next build",
-    "start": "next start",
-    "start:prod": "NODE_ENV=production npm run build && pm2 start npm --name 'TrazeTrip' -- start -p 3001"
+    "start": "next start -p 3001",
+    "start:prod": "NODE_ENV=production next build && pm2 start npm --name 'TrazeTrip' -- start"
   },
   "dependencies": {
     "@glidejs/glide": "^3.4.1",
