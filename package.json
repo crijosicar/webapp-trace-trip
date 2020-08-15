@@ -1,11 +1,10 @@
 {
-  "name": "trazetrip",
+  "name": "webapp-trazetrip",
   "version": "2.0.0",
   "scripts": {
-    "dev": "next -p 3001",
+    "dev": "next -p $PORT",
     "build": "next build",
-    "start": "next start -p 3001",
-    "start:prod": "NODE_ENV=production next build && pm2 start npm --max-memory-restart 200M --name 'TrazeTrip' -- start"
+    "start": "next start -p $PORT"
   },
   "dependencies": {
     "@glidejs/glide": "^3.4.1",
