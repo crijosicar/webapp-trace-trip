@@ -5,7 +5,7 @@ module.exports = {
       script: "npm",
       args: "start",
       cwd: "/var/www/webapp-trace-trip/",
-      instances: 2,
+      instances: 1,
       autorestart: true,
       watch: false,
       max_memory_restart: "200M",
